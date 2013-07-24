@@ -10,7 +10,7 @@ if(typeof Retsly !== 'undefined') {
     var Component = {};
     Component.Basic = Backbone.View.extend({
       index: 0,
-      className: 'row-fluid',
+      className: 'retsly-component retsly-js-listinginfo span12 row-fluid',
       initialize: function(options) {
 
         if(!options || typeof options.mls_id === "undefined")
