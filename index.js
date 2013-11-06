@@ -28,10 +28,19 @@ if(typeof Retsly !== 'undefined') {
         $(options.target).append(this.$el);
 
         var self = this;
-        new Retsly.Models.Listing({ _id: this.options.listing_id }, {
-          mls_id: this.options.mls_id,
-          complete: function(listing) { self.render(listing); }
-        }).fetch({ limit: 1 });
+        new Retsly.Models.Listing(
+          { _id: this.options.listing_id },
+          { mls_id: this.options.mls_id}
+        )
+        .fetch({
+          limit: 1,
+          success: function(listing) {
+            self.render(listing);
+          },
+          error: function() {
+            throw new Error('Retsly.Views.ListingInfo - Listings not found', arguments);
+          }
+        });
 
       },
       render: function(listing) {
