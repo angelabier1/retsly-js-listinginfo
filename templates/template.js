@@ -1,1 +1,1 @@
-module.exports = '<h2><%- address %> <%- county %></h2>\n<h3>$ <%- listingPrice %> - <%- numberOfBedrooms %> Bed, <%- numberOfBaths %> Bath</h3>\n<p>\n  <%- publicRemarks %>\n</p>\n';
+module.exports = '<h2><%- address %> <%- county %></h2>\n<h3>$ <%- price %> - <%- bedrooms %> Bed, <%- baths %> Bath</h3>\n<p>\n  <%- publicRemarks %>\n</p>\n';
