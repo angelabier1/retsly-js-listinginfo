@@ -1,14 +1,3 @@
-<pre>
-                          ,------.        ,--.       ,--.
-                          |  .--. ',---.,-'  '-.,---.|  ,--. ,--.
-                          |  '--'.| .-. '-.  .-(  .-'|  |\  '  /
-                          |  |\  \\   --. |  | .-'  `|  | \   '
-                          `--' '--'`----' `--' `----'`--.-'  /
-                            Make Real Estate Apps in    `---'
-                               Minutes Not Months
-
-</pre>
-
 # retsly-js-listinginfo
 
   A listing info component built on Retsly
