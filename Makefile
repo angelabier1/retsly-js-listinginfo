@@ -1,11 +1,14 @@
 
-build: clean components index.js
+build: clean components template
 	@component build --dev
 
 components: component.json
 	@component install --dev
 
-dist: component.json index.js
+template:
+	@component convert templates/template.html
+
+dist: component.json template
 	component install
 	component build
 
@@ -15,4 +18,4 @@ test: build
 clean:
 	rm -fr build components template.js
 
-.PHONY: build test
+.PHONY: clean test
