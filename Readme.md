@@ -1,4 +1,4 @@
-# retsly-js-listinginfo
+# retsly-js-listinginfo [![wercker status](https://app.wercker.com/status/7115d5f14afe4b0d49e177f49d57b4a5/s/ "wercker status")](https://app.wercker.com/project/bykey/7115d5f14afe4b0d49e177f49d57b4a5)
 
   A listing info component built on Retsly
 
