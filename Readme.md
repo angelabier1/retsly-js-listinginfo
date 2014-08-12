@@ -19,6 +19,10 @@ new ListingInfo.Basic({
 });
 ```
 
+## Repo Owner
+
+[Kyle Campbell](http://github.com/slajax)
+
 ## License
 
 (The MIT License)
