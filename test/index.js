@@ -4,7 +4,7 @@
  */
 var assert = require('assert');
 var Retsly = require('retsly-js-backbone');
-var Info = require('retsly-listinginfo');
+var Info = require('retsly-js-listinginfo');
 
 /**
  * Tests
