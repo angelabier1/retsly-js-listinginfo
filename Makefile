@@ -16,6 +16,6 @@ test: build
 	@mocha-phantomjs test/test.html
 
 clean:
-	rm -fr build components template.js
+	rm -fr build components
 
 .PHONY: clean test

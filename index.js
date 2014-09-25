@@ -1,5 +1,5 @@
 
-var Retsly = require('retsly-backbone');
+var Retsly = require('retsly-js-backbone');
 var Backbone = require('backbone');
 var _ = require('underscore');
 var $ = require('jquery');
