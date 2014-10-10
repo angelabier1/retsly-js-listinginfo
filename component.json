@@ -2,12 +2,12 @@
   "name": "retsly-js-listinginfo",
   "repo": "Retsly/retsly-js-listinginfo",
   "description": "A listing info component built on Retsly",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "dependencies": {
     "components/jquery": "1.10.2",
     "jashkenas/backbone": "*",
     "jashkenas/underscore": "*",
-    "retsly/retsly-js-backbone": "0.2.0"
+    "retsly/retsly-js-backbone": "0.3.0"
   },
   "local": [ ],
   "license": "MIT",
